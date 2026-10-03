@@ -46,6 +46,13 @@ section{padding:80px 0}
 .tile .cap{position:absolute;left:0;right:0;bottom:0;padding:20px 22px;background:linear-gradient(transparent,var(--bg) 70%)}
 .tile h3{font-size:1.9rem}
 .tile p{margin:4px 0 0;color:var(--mute);font-size:.95rem;line-height:1.5}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.product{display:flex;flex-direction:column;border:1px solid var(--line);background:linear-gradient(160deg,var(--bg2),var(--bg));padding:32px}
+.product .pic{height:170px;margin-bottom:24px}
+.product h3{font-size:1.9rem}
+.product p{margin:8px 0 20px;color:var(--mute);font-size:.95rem;line-height:1.5}
+.product .price{margin-top:auto;margin-bottom:20px;font:500 2.2rem/1 "Cormorant Garamond",serif;color:var(--gold)}
+.product .btn{align-self:flex-start;padding:12px 24px}
 .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px}
 .why div{border-top:1px solid var(--gold);padding-top:18px}
 .why h3{font-size:1.7rem;margin-bottom:8px}
@@ -103,6 +110,15 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mute);text-al
 <div class="tile"><svg class="art" aria-hidden="true"><use href="#dress"/></svg><div class="cap"><h3>Robes de soirée</h3><p>Une nouvelle collection pour vos soirées.</p></div></div>
 <div class="tile"><svg class="art" aria-hidden="true"><use href="#watch"/></svg><div class="cap"><h3>Montres</h3><p>De belles montres pour finir la tenue.</p></div></div>
 <div class="tile"><svg class="art" aria-hidden="true"><use href="#scent"/></svg><div class="cap"><h3>Parfums</h3><p>Des senteurs particulières, à offrir ou à garder.</p></div></div>
+</div>
+</div></section>
+
+<section id="produits" style="padding-top:0"><div class="wrap">
+<div class="head"><h2>Nos produits</h2><p>Une sélection de pièces phares, à essayer ou à réserver en boutique.</p></div>
+<div class="products">
+<div class="product"><div class="pic"><svg class="art" aria-hidden="true"><use href="#suit"/></svg></div><h3>Costume Prestige</h3><p>Costume bleu nuit à la coupe structurée, livré avec chemise et cravate assorties.</p><div class="price">450 $</div><a class="btn ghost" href="https://wa.me/243848499000?text=Bonjour%2C%20je%20souhaite%20commander%20le%20Costume%20Prestige.">Commander</a></div>
+<div class="product"><div class="pic"><svg class="art" aria-hidden="true"><use href="#watch"/></svg></div><h3>Montre Gombe Classique</h3><p>Montre élégante à cadran doré et bracelet en cuir, pour compléter chaque tenue.</p><div class="price">180 $</div><a class="btn ghost" href="https://wa.me/243848499000?text=Bonjour%2C%20je%20souhaite%20commander%20la%20Montre%20Gombe%20Classique.">Commander</a></div>
+<div class="product"><div class="pic"><svg class="art" aria-hidden="true"><use href="#scent"/></svg></div><h3>Parfum Santini Oud</h3><p>Fragrance boisée aux notes d'oud et d'ambre, idéale pour offrir ou se faire plaisir.</p><div class="price">95 $</div><a class="btn ghost" href="https://wa.me/243848499000?text=Bonjour%2C%20je%20souhaite%20commander%20le%20Parfum%20Santini%20Oud.">Commander</a></div>
 </div>
 </div></section>
 
